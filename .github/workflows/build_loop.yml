@@ -276,6 +276,9 @@ jobs:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
+          
+          # LoopKit/GlucoseKit: GlucoseStore.Swift: Implement safer glucose momentum
+          curl https://github.com/ryangs23/LoopKit/commit/63a7f10c0f26527e541991a80f74a508fd053642.patch | git apply -v --directory=LoopKit
 
           # Submodule xxxxx patches:
 
