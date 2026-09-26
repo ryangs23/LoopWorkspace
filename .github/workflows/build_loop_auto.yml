@@ -253,7 +253,7 @@ jobs:
           # cgm_sensor_notes \
           profiles \
           # basal_lock \
-          negative_insulin \
+          negative_insulin
           # remote_window \
           # xdrip_cgm
 
